@@ -1,0 +1,10 @@
+vetor = []
+for i in range(30):
+    numero = int(input('Digite um número: '))
+    vetor.append(numero)
+numero_a_procurar = int(input('Digite um número para procurar'))
+contador = 0
+for numero in vetor:
+    if numero == numero_a_procurar:
+        contador += 1
+print("O numero", numero_a_procurar, "mostra", contador, "vezes no vetor.")
