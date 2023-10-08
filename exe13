@@ -1,1 +1,19 @@
+vetor = []
+for i in range(30):
+    numero = int(input('Digite um número inteiro'))
+    vetor.append(numero)
+print('Números pares')
+for numero in vetor:
+    if numero % 2 == 0:
+        print(numero)
 
+menor = min(vetor)
+maior = max(vetor)
+print('Menor valor:', menor)
+print('Maior valor:, maior')
+media = sum(vetor) / len(vetor)
+contador = 0
+for numero in vetor:
+    if numero > media:
+        contador += 1
+print('Quantidade de valores maiores ', contador)
