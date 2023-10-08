@@ -1,0 +1,10 @@
+nomes = []
+for i in range(5):
+    nome = input('Digite um nome')
+    nomes.append(nome)
+print('Lista de nomes')
+for nome in nomes:
+    print(nome)
+print('Nomes na ordem inversa')
+for nome in reversed(nomes):
+    print(nome)
